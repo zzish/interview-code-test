@@ -28,7 +28,8 @@ Each user has the following information:
 }
 ```
 
-Given the list of feature flags in `features.json` , your task is to create an API endpoint that returns a list of the features that are enabled for a given user’s email and location. A list of example users are included in `example_users.json`.
+Given the list of feature flags in `features.json` , your task is to create an API endpoint that returns a list of the features that are enabled for a given user’s email and location. **The feature flags returned by the API for a given user must always be consistent**. A list of example users are included in `example_users.json`.
+
 
 You can use any frameworks/libraries you like. Be sure to include tests and instructions on how to run the project.
 
